@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.google.com/specimen/Mountains+of+Christmas?category=Display#type-tester');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("../img/container_bg.png");
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.boton_logeo{
+    background-color: white;
+    color: red;
+    border-color: white;
+}
+
+.boton_logeo:hover{
+    background-color: green;
+    color: white;
+    border-color: white;
+}
+
+.boton_color {
+    color: #E3350D;
+    border-color: #E3350D;
+    border-radius:1.25rem; 
+}
+
+.boton_color:hover{
+    background-color: #E3350D;
+    color: white;
+    border-color: white;
+}
+
+.seccion_busqueda{
+    margin-top: 3rem!important;
+}
+
+
+.contenido{
+    background-color: #f8f8f8;
+    border: 0.2rem solid #E3350D;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.img-pokemon{
+    border-radius: 10px;
+    border: 2px solid #ffdd56;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.img-pokemon img{
+   display: block;
+   margin: auto;
+   width: 400px;
+}
+
+h3>img{
+    width: 90px;
+}
+
+div>h1{
+    margin: 1rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.2rem solid;
+}
+
+h1>span{
+    margin-left: 1rem;
+    color: #616161;
+}
+
+.descripcion-pokemon{
+    margin-top: 1.5rem;
+}
+
+.hover-imagen:hover{
+    transition: 1s;
+    background-color: #91fd91;
+    cursor: pointer;
+}
+
+table{
+    background-color: #c8ffc8;
+}
+
+footer>p {
+    background-color: #dc3545;
+    padding: 2rem;
+    color: #ffffff;
+}
+

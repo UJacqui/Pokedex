@@ -1,0 +1,1 @@
+INSERT INTO `pokemon`(`idPokemon`, `nombre`, `tipo`, `descripcion`, `imagen`) VALUES ('1','squirtle','imgPoke/agua.png','Squirtle es un pokemon de tipo agua','imgPoke/squirtle.png')
